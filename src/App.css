@@ -1,38 +1,111 @@
-.App {
+.container{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 2px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px #888888;
+  color: #f2505e;
+}
+
+/* flex justify-between  mb-10 p-2 font-bold shadow-2xl */
+
+.text1{
+  /* text-2xl rounded-lg  text-[#f2505e] ml-5 bg-[#1e222d] p-2 cursor-pointer */
+  color:#f2505e;
+  margin-left: 15px;
+  background-color: #1e222d;
+  font-size: 2rem;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 10px;
+
+} 
+
+/* text-xl rounded-lg text-[#f2505e] mr-5 shadow-4xl bg-[#1e222d] p-2 cursor-pointer */
+
+
+.text2{
+  padding: 10px;
+  background-color: #1e222d;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+/* w-[700px] rounded-3xl m-auto text-center h-[45vh] pt-10  bg-[#1e222d] shadow-2xl  */
+
+.container1{
+  height: auto;
+  width: 700px;
+  color:#f2505e;
+  background-color: #1e222d;
+  box-shadow: 5px 5px 5px 5px #1e222d;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px;
+
+}
+
+.text_set{
+  font-size: 1.5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container1 ._set{
+  margin: 20px; 
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  font-size: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* flex justify-between  m-3 */
+.supercontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* border-4 w-80 p-4 text-2xl border-[#f2505e] m-auto font-bold rounded-xl  */
+
+
+/* flex flex-col  mt-5 text-[#f2505e] */
+.btn{
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+
+}
+.btn button{
+  color: #f2505e;
+  font-size: 1.5rem;
+  width: 15rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px;
+  border: 4px solid #f2505e;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #1e222d;
+}
+.btn button:hover{
+  background-color: #232e49;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* .flex_set{
+  display: flex;
+  width: 100%;
+  border:2px solid red;
+  justify-content: space-between;
+} */
+.inner_flex_set{
+  display: flex;
+  font-size: 0.5rem;
+  justify-content: space-between;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

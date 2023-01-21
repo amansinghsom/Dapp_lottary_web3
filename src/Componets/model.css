@@ -1,0 +1,73 @@
+.module_container {
+  position: fixed;
+  z-index: 50;
+  inset: 0;
+}
+.module_box {
+  border: 1px soild red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.fix {
+  position: absolute;
+  inset: 0;
+  background-color: #1e222d;
+  opacity: 0.5;
+}
+
+.module_fix {
+  width: 400px;
+  background-color: #1e222d;
+  /* background-color: n; */
+  height: 260px;
+  z-index: 60;
+  background-blend-mode: hard-light;
+  box-shadow: 5px 5px 5px 5px #1e222d;
+  border: 1px solid #1e222d;
+}
+
+/* text-center mt-7 text-gray-600 */
+.inner_module {
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(180, 180, 180);
+}
+
+/* text-4xl font-bold  text-[#f2505e] */
+
+.inner_module1 {
+  font-size: 2.2rem;
+  color: #f2505e;
+  font-weight: bold;
+}
+
+.inner_module2 {
+  margin-top: 1rem;
+}
+
+.inner_module input[type="text"] {
+  padding: 1rem;
+  color: #f2505e;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  background: #1e222d;
+  font-size: 1rem;
+}
+
+.inner_module div button {
+  padding: 1rem;
+  border: 2px solid #f2505e;
+  margin: 1rem;
+  color: #f2505e;
+
+  width: 100px;
+  background-color: #1e222d;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
